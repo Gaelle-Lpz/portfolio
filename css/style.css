@@ -1,0 +1,32 @@
+/* --- Import Font --- */
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+/* --- Import Components stylesheets --- */
+@import url("components/reset.css");
+@import url("components/navbar.css");
+@import url("sections/home.css");
+
+
+#work {
+  height: 800px;
+  background-color: blue;
+}
+
+#contact{
+  height: 800px;
+  background-color: green;
+}
+
+body {
+  font-family: "Patua One";
+  color: rgb(230, 230, 230);
+  background-color: black;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+.test {
+  height: 200px;
+}

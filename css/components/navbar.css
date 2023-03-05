@@ -1,0 +1,37 @@
+#navbar {
+  height: 64px;
+  background-color: black;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 82px;
+  padding: 0 10% 0 10%;
+  background-color: black;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 24px;
+  color: rgb(230, 230, 230);
+  transition: 0.2s ease-in-out;
+}
+
+nav a:hover {
+  border-bottom: 2px solid rgb(136, 186, 255);
+}
+
+.toggle-btn:hover {
+  cursor: pointer;
+  color: rgb(136, 186, 255);;
+}

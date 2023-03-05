@@ -13,7 +13,7 @@ window.addEventListener('scroll', function() {
     }
   });
 
-  if (sectionActive != sections[0]) {
+  if (sectionActive != sections[0] && sectionActive != sections[1]){
     navbarTitle.textContent = sectionActive.getAttribute('id');
   }
   else {

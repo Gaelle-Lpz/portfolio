@@ -1,0 +1,63 @@
+#home {
+  margin: 0 10% 0 15%;
+  height: 100vh;
+  margin-top: 64px;
+  font-size: 2em;
+}
+.home {
+  display: flex;
+}
+
+.hand {
+  margin: 64px 64px 64px 32px;
+  text-align: center;
+  font-size: 2em;
+  animation: waving 0.60s linear infinite;
+  animation-direction: alternate-reverse;
+}
+
+
+@keyframes waving {
+  from {
+      transform: rotate(40deg);
+  }
+  to {
+      transform: rotate(-10deg);
+  }
+}
+
+.presentation {
+  margin-top: 64px;
+  line-height: 1.5em;
+  animation: element-appear 1.5s ease-in-out forwards;
+}
+
+.title {
+  font-size: 2.2em;
+  color: rgb(136, 186, 255);
+  animation: element-appear 2.5s ease-in-out forwards;
+}
+
+.container-btn {
+  font-size: 64px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+  animation: element-appear 3s ease-in-out forwards;
+}
+
+.container-btn a {
+  color: rgb(136, 186, 255);
+}
+
+@keyframes element-appear {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
