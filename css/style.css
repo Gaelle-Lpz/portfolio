@@ -6,6 +6,9 @@
 @import url("components/navbar.css");
 @import url("sections/home.css");
 
+html {
+  scroll-behavior: smooth;
+}
 
 #work {
   height: 800px;

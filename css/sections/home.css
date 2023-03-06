@@ -17,15 +17,6 @@
 }
 
 
-@keyframes waving {
-  from {
-      transform: rotate(40deg);
-  }
-  to {
-      transform: rotate(-10deg);
-  }
-}
-
 .presentation {
   margin-top: 64px;
   line-height: 1.5em;
@@ -51,6 +42,20 @@
   color: rgb(136, 186, 255);
 }
 
+.circle-btn:hover {
+  animation: bounce 2s infinite;
+}
+/* Animations */
+
+@keyframes waving {
+  from {
+      transform: rotate(40deg);
+  }
+  to {
+      transform: rotate(-10deg);
+  }
+}
+
 @keyframes element-appear {
   from {
     transform: scale(0);
@@ -59,5 +64,16 @@
   to {
     transform: scale(1);
     opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  40% {
+    height: 60%;
+    width: 110%;
+    transform: translateY(3vh);
+  }
+  70% {
+    transform: translateY(0px);
   }
 }
